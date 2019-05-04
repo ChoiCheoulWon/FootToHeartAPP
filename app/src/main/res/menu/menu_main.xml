@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.foottoheart.MainActivity">
+    <item
+        android:id="@+id/nujeuk"
+        android:orderInCategory="100"
+        android:title="누적운동량"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/friend"
+        android:orderInCategory="100"
+        android:title="친구"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/news"
+        android:orderInCategory="100"
+        android:title="뉴스"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        android:title="설정"
+        app:showAsAction="never" />
+</menu>

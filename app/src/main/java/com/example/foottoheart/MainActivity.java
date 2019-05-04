@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         // 앉아있는 시간 카운트--------------------
         // 임시로 만들었기때문에 start버튼을 누를 시 시간 증가, stop 버튼을 누를 시 시간 정지
         // 실제로는 센서에서 앉았다고 판단되었을 시 시간 증가
+        
         tv2 = (TextView)findViewById(R.id.daily_time);
         Button timer_startBT = (Button) findViewById(R.id.start) ;
         timer_startBT.setOnClickListener(new Button.OnClickListener() {
